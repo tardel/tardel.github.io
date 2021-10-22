@@ -1,12 +1,3 @@
-var thing = document.getElementById('username').value;
-function yo(){
-  
-  window.alert(thing);
-}
- function call(){
-  window.alert(thing)
- }
-
 var a;
 
 function getName(){
