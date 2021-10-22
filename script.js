@@ -1,4 +1,4 @@
-var thing = document.getElementById('name').value;
+var thing = document.getElementById('username').value;
 function yo(){
   
   window.alert(thing);
