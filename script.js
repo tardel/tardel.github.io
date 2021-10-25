@@ -17,5 +17,5 @@ function getUser(){
 function saveName(){
   c = document.getElementById('textfield').value;
   localStorage.setItem('userName',fieldValue);
-  window.location.href="page2.html";
+  window.location.href="two.html";
 }
