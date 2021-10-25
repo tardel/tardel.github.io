@@ -1,4 +1,4 @@
-var a;
+/*var a;
 
 function getName(){
   //get value from input field and save as "a"
@@ -12,4 +12,10 @@ function getName(){
 function getUser(){
   var b = localStorage.getItem('uName');
   document.getElementById('placeholder').innerHTML = "Hello "+b;
+} */
+
+function saveName(){
+  c = document.getElementById('textfield').value;
+  localStorage.setItem('userName',fieldValue);
+  window.location.href="page2.html";
 }
